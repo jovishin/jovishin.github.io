@@ -64,6 +64,9 @@
 
 
 
+  <meta property="fb:admins" content="1730666549">
+  <meta property="fb:app_id" content>
+
 
 
 <script id="hexo.configurations">
@@ -125,6 +128,23 @@
 
   <title>測試而…已 | JoviTsai 的 五四三</title>
   
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId  : '',
+        xfbml  : true,
+        version: 'v2.10'
+      });
+    };
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/zh_TW/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
 
 
 
@@ -493,6 +513,25 @@
 
       
       
+        <div class="post-widgets">
+        
+
+        
+          
+          <div class="social-like">
+            
+
+            
+              <div class="fb_like">
+                <div class="fb-like" data-layout="button_count" data-share="true"></div>
+              </div>
+            
+          </div>
+        
+
+        
+        </div>
+      
       
 
       
@@ -528,6 +567,12 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      <div class="fb-comments" data-href="https://jovishin.github.io/2019/03/28/test/test/" data-numposts="10" data-width="100%" data-colorscheme="light">
+      </div>
+    </div>
 
   
 
