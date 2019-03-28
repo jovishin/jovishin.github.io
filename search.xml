@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[測試而…已]]></title>
     <url>%2F2019%2F03%2F28%2Ftest%2F</url>
-    <content type="text"><![CDATA[Jovi Tsai Test…沒事多喝水 12345class Jovi &#123; private function doSomething ($action) &#123; return 'Go '. $action . '!'; &#125;&#125;]]></content>
+    <content type="text"><![CDATA[Jovi Tsai Test…沒事多喝水 12345class Jovi &#123; public function doSomething ($action) &#123; return 'Go '. $action . '!'; &#125;&#125;]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
